@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/inicial.css" />
+    <link rel="shortcut icon" href="img/s-logo-blue.ico" type="image/x-icon">
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a7f2dbe35a.js" crossorigin="anonymous"></script>
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="header">
+        <!--usando ids para o JS-->
+        <div id="mainbox" onclick="openFunction()">
+            &#9776; 
+            Abrir Menu
+        </div>
+        <div id="menu" class="sidemenu">
+            <a href="/htmlecss">HTML e CSS</a>
+            <a href="/sobreMim">Sobre Samuel</a>
+            <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+        </div>
+        <div class="div-header">
+            <h1 class="titulo-pagina">
+                Sobre esse projeto
+            </h1>
+            <div class="top">
+                <div class="imagem-container">
+                    <img src="img\programacao.jpg">
+                    <div class="box-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="principal">
+        <main class="main">
+            <div class="div-inicio">
+                <h2 class="titulo-hello-world">
+                    Hello world!
+                </h2>
+                <p>
+                    Esse projeto foi desenvolvido com o intuito de medir e melhorar
+                    meus conhecimentos em HTML CSS. Sim ele contem JS com node em seu
+                    back-end mas esse não é o foco, uma pequena parte em JS para fazer
+                    o sideBar.
+                </p>
+            </div>
+            <div class="div-melhorias">
+                <h2 class="titulo-melhorias-projeto">
+                    Melhorias no projeto
+                </h2>
+                <p>
+                    Reconheco que tenho diversos aspectos a melhorarar nesse projeto,
+                    tanto em HTML quanto em CSS, há diversas coisas a se aprender ainda
+                    e talvez um dia eu faça um nova versão implentando novas tecnologias
+                    e funcionalidades.
+                </p>
+            </div>
+            <div class="div-aprendizado">
+                <h2 class="titulo-aprendizado">
+                    Aprendizado do projeto
+                </h2>
+                <p>
+                    Com esse processo de desenvolvimento agragei e muito meu conhecimento
+                    em CSS e HTML e reconheci a necessidade de ferramentas como bootstrap,
+                    em que o tempo de desenvolvimento é reduzido, trabalhar com o CSS demando
+                    muito tempo e pesquisas longas.
+                </p>
+            </div>
+            <div class="div-proximospassos">
+                <h2 class="titulo-proximos-passos">
+                    Próximos passos
+                </h2>
+                <p>
+                    Após esse pequeno trabalho pretendo estudar e fazer novos projetos com
+                    NodeJs e React. Um dos projetos que tenho em mente se trata de um sistema
+                    para resteurante. E tambem vejo a necessidade estudar mais afundo bancos
+                    de dados não relacionais, como MongoDB.
+                </p>
+            </div>
+        </main>
+    </div>
+    <!--Rodapé-->
+    <footer class="footer">
+        <div class="div-class-footer">
+            <h3 class="h3-titulo-feedback">
+                Gostou desse pequeno projeto ?
+            </h3>
+            <div class="div-footer-p1">
+                <p class="p-feedback">
+                    Tem alguma critica ou dica para mim ? <br>
+                    Fale comigo!<br>
+                </p>
+            </div>
+            <div class="social-menu">
+                <a href="https://www.linkedin.com/in/samuel-mendes-699979190/" target="_blank" rel="external"><i
+                        class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/MendesS4" target="_blank" rel="external"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/mendes.s4/" target="_blank" rel="external"><i
+                        class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/samuel.mendes.923171/" target="_blank" rel="external"><i
+                        class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="div-footer-p2">
+                <p>
+                    email de contato:<br>
+                    mendessamuel1@outlook.com
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
